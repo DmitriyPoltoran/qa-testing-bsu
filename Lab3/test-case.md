@@ -72,8 +72,7 @@
 
 | ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                  |   Fill searching line with text "ASDGASDGAS"      | _Message_: "NO RESULTS WERE FOUND FOR THE KEYWORD "ASDGASDGAS"
-To improve your results, check your spelling or use a more general keyword".     |     
+| 1                  |   Fill searching line with text "ASDGASDGAS"      | _Message_: "NO RESULTS WERE FOUND FOR THE KEYWORD "ASDGASDGAS" To improve your results, check your spelling or use a more general keyword". |     
 
 ### 8. Calculating sum in cart
 
@@ -83,4 +82,4 @@ To improve your results, check your spelling or use a more general keyword".    
 
 | ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                  |   Change one itme to two items      | Total sum  is x2     |    
+| 1                  |   Change quality of item form one to two       | Total sum  is x2     |    
