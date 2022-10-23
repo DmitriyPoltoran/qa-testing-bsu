@@ -9,7 +9,7 @@
 
 | ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                  | Click the _Place in Cart_                        | _Quality near cart +=1 and add to cart popup is appear_       |                                                                                                                                                                         
+| 1                  | Click the _Place in Cart_                        | _Quatity near cart +=1 and add to cart popup is appear_       |                                                                                                                                                                         
 
 ### 2. Delete item from cart
 
@@ -20,7 +20,7 @@
 | ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1                  | Click _Remove_                                   | _Popup with clarifying deliting item from cart_ is appeared                                                                                                                                                                                       
-| 2                  | Click _Remove_                                   |  _Quality near cart -=1_ |                                                                                                                                                                                                    
+| 2                  | Click _Remove_                                   |  _Quantity near cart -=1_ |                                                                                                                                                                                                    
 
 ### 3. Find t-shirt from searching line
 
@@ -40,7 +40,7 @@
 
 | ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                  | Click _White Hart with black border_                | _Orange circle near Wishlist_ is appeared _Popup with message "The item {item} has been added to your wishlist Access your wishlist"_  is appeared      | 
+| 1                  | Click _white heart with black border_                | _Orange circle near Wishlist_ is appeared _Popup with message "The item {item} has been added to your wishlist Access your wishlist"_  is appeared      | 
 
 ### 5. Delete item from wishlist
 
@@ -82,4 +82,26 @@
 
 | ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                  |   Change quality of item form one to two       | Total sum  is x2     |    
+| 1                  |   Change quantity of item from one to two      | Total sum  is x2     |    
+
+
+### 9. Find items with mistake in searching words
+
+- Web page https://us.louisvuitton.com/eng-us/homepage  is opened
+
+#### Test Steps
+
+| ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
+| ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                  | Write "tshrt"                 | _Popup with all t-shirt_ is appeared      |     
+
+### 10. Change item's color
+
+- Web page https://us.louisvuitton.com/eng-us/{someItem}  is opened
+
+#### Test Steps
+
+| ID                 | Test Step Description                            | Expected Result                                                                                                                                                                                                                        |
+| ------------------ | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                  | Change color in _Colors popup_                 | _Color_ of item is changed      |     
+
